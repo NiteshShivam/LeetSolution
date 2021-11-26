@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizSet1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/q1"
+        android:text="@string/level1q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) equivalent evaporation"/>
+        <RadioButton
+            android:id="@+id/q1b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) kg/hr"/>
+        <RadioButton
+            android:id="@+id/q1c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) steam pressure"/>
+        <RadioButton
+            android:id="@+id/q1d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) thermal efficiency"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q2"
+        android:text="@string/level1q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) hit and miss governing"/>
+        <RadioButton
+            android:id="@+id/q2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) blow off in boiler"/>
+        <RadioButton
+            android:id="@+id/q2c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) throttle governing"/>
+        <RadioButton
+            android:id="@+id/q2d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) speed control"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q3"
+        android:text="@string/level1q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) Sterling cycle"/>
+        <RadioButton
+            android:id="@+id/q3b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) Bryton cycle"/>
+        <RadioButton
+            android:id="@+id/q3c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) Rankine cycle"/>
+        <RadioButton
+            android:id="@+id/q3d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) Otto cycle"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q4"
+        android:text="@string/level1q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q4a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) 150 KW"/>
+        <RadioButton
+            android:id="@+id/q4b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) 6000 KW"/>
+        <RadioButton
+            android:id="@+id/q4c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) 600 KW"/>
+        <RadioButton
+            android:id="@+id/q4d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q5"
+        android:text="@string/level1q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q5a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q5b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q5c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q5d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q6"
+        android:text="@string/level1q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q6a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q6b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q6c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q6d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q7"
+        android:text="@string/level1q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q7a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q7b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q7c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q7d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q8"
+        android:text="@string/level1q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q8a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q8b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q8c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q8d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q9"
+        android:text="@string/level1q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q9a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q9b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q9c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q9d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q10"
+        android:text="@string/level1q10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q10a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q10b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q10c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q10d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q11"
+        android:text="@string/level1q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q11a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q11b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q11c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q11d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q12"
+        android:text="@string/level1q12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q12a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q12b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q12c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q12d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q13"
+        android:text="@string/level1q13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q13a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q13b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q13c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q13d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q14"
+        android:text="@string/level1q14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q14a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q14b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q14c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q14d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q15"
+        android:text="@string/level1q15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q15a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q15b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q15c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q15d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q16"
+        android:text="@string/level1q16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q16a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q16b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q16c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q16d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q17"
+        android:text="@string/level1q17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q17a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q17b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q17c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q17d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q18"
+        android:text="@string/level1q18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q18a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q18b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q18c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q18d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q19"
+        android:text="@string/level1q19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q19a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q19b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q19c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q19d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q20"
+        android:text="@string/level1q20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q20a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q20b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q20c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q20d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q21"
+        android:text="@string/level1q21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q21a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q21b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q21c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q21d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q22"
+        android:text="@string/level1q22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q22a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q22b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q22c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q22d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q23"
+        android:text="@string/level1q23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q23a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q23b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q23c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q23d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q24"
+        android:text="@string/level1q24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q24a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q24b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q24c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q24d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q25"
+        android:text="@string/level1q25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q25a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q25b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q25c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q25d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q26"
+        android:text="@string/level1q26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q26a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q26b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q26c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q26d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q27"
+        android:text="@string/level1q27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q27a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q27b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q27c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q27d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q28"
+        android:text="@string/level1q28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q28a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q28b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q28c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q28d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q29"
+        android:text="@string/level1q29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q29a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q29b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q29c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q29d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q30"
+        android:text="@string/level1q30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q30a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q30b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q30c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q30d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q31"
+        android:text="@string/level1q31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q31a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q31b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q31c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q31d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,2714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UP2015">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/q1"
+                android:text="@string/up2015q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) complete instruction set compiler"/>
+                <RadioButton
+                    android:id="@+id/q1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) complex instruction set computer"/>
+                <RadioButton
+                    android:id="@+id/q1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) comprehensive instruction set compiler "/>
+                <RadioButton
+                    android:id="@+id/q1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of these."/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q2"
+                android:text="@string/up2015q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/q2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 1.1 kg/cm^2"/>
+                <RadioButton
+                    android:id="@+id/q2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 1.033 kg/cm^2 "/>
+                <RadioButton
+                    android:id="@+id/q2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 1.1 kg/cm^2"/>
+                <RadioButton
+                    android:id="@+id/q2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 1.133 kg/cm^2"/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q3"
+                android:text="@string/up2015q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) wood"/>
+                <RadioButton
+                    android:id="@+id/q3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) aluminium"/>
+                <RadioButton
+                    android:id="@+id/q3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) carbon"/>
+                <RadioButton
+                    android:id="@+id/q3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) silicon steel."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q4"
+                android:text="@string/up2015q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) to provide oxygen to the cooling oil"/>
+                <RadioButton
+                    android:id="@+id/q4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) to provide cooling air"/>
+                <RadioButton
+                    android:id="@+id/q4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) to arrest flow of moisture when outside air enters the transformer."/>
+                <RadioButton
+                    android:id="@+id/q4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) to filter the transformer oil."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q5"
+                android:text="@string/up2015q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) hysteresis loss"/>
+                <RadioButton
+                    android:id="@+id/q5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) eddy-current loss"/>
+                <RadioButton
+                    android:id="@+id/q5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) sum of hysteresis and eddy-current loss"/>
+                <RadioButton
+                    android:id="@+id/q5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) copper loss."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q6"
+                android:text="@string/up2015q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) product of longitudinal stress to longitudinal strain"/>
+                <RadioButton
+                    android:id="@+id/q6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) ratio of longitudinal strain to lateral strain"/>
+                <RadioButton
+                    android:id="@+id/q6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) ratio of lateral strain to longitudinal strain "/>
+                <RadioButton
+                    android:id="@+id/q6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) ratio of lateral stress to lateral strain."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q7"
+                android:text="@string/up2015q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) zinc and lead"/>
+                <RadioButton
+                    android:id="@+id/q7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) lead and tin"/>
+                <RadioButton
+                    android:id="@+id/q7c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) zinc and nickel"/>
+                <RadioButton
+                    android:id="@+id/q7d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) aluminium,nickel and zinc."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q8"
+                android:text="@string/up2015q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) mass"/>
+                <RadioButton
+                    android:id="@+id/q8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) force"/>
+                <RadioButton
+                    android:id="@+id/q8c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) momentum"/>
+                <RadioButton
+                    android:id="@+id/q8d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) energy"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q9"
+                android:text="@string/up2015q9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) that which occurs when there is no motion"/>
+                <RadioButton
+                    android:id="@+id/q9b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) that occurs on dry surfaces only"/>
+                <RadioButton
+                    android:id="@+id/q9c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) less than maximum static friction"/>
+                <RadioButton
+                    android:id="@+id/q9d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) is always more than peak static "/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q10"
+                android:text="@string/up2015q10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q10a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) henry"/>
+                <RadioButton
+                    android:id="@+id/q10b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) joule"/>
+                <RadioButton
+                    android:id="@+id/q10c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) henry/meter"/>
+                <RadioButton
+                    android:id="@+id/q10d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) joule/metre"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q11"
+                android:text="@string/up2015q11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Magnetic field intensity"/>
+                <RadioButton
+                    android:id="@+id/q11b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Magnetic potential"/>
+                <RadioButton
+                    android:id="@+id/q11c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Flux density"/>
+                <RadioButton
+                    android:id="@+id/q11d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Relative permeability."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q12"
+                android:text="@string/up2015q12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q12a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Mouse"/>
+                <RadioButton
+                    android:id="@+id/q12b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Floppy disc"/>
+                <RadioButton
+                    android:id="@+id/q12c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) MICR"/>
+                <RadioButton
+                    android:id="@+id/q12d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Hard disc. "/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q13"
+                android:text="@string/up2015q13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q13a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 10"/>
+                <RadioButton
+                    android:id="@+id/q13b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 18"/>
+                <RadioButton
+                    android:id="@+id/q13c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 32"/>
+                <RadioButton
+                    android:id="@+id/q13d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 54"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q14"
+                android:text="@string/up2015q14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q14a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Share program"/>
+                <RadioButton
+                    android:id="@+id/q14b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Text editor "/>
+                <RadioButton
+                    android:id="@+id/q14c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Account package"/>
+                <RadioButton
+                    android:id="@+id/q14d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Microprocessor."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q15"
+                android:text="@string/up2015q15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q15a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CH(base 3)COOH"/>
+                <RadioButton
+                    android:id="@+id/q15b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) SOCI(base 2)"/>
+                <RadioButton
+                    android:id="@+id/q15c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) NH(base 4)OH"/>
+                <RadioButton
+                    android:id="@+id/q15d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) NH(base 2)CSNH(base 2)"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q16"
+                android:text="@string/up2015q16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) An inert gas element "/>
+                <RadioButton
+                    android:id="@+id/q16b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) A transition element"/>
+                <RadioButton
+                    android:id="@+id/q16c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) A halogen"/>
+                <RadioButton
+                    android:id="@+id/q16d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) An alkali metal."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q17"
+                android:text="@string/up2015q17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q17a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) RAM"/>
+                <RadioButton
+                    android:id="@+id/q17b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) ROM"/>
+                <RadioButton
+                    android:id="@+id/q17c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) EPROM"/>
+                <RadioButton
+                    android:id="@+id/q17d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) PROM"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q18"
+                android:text="@string/up2015q18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q18a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Ultra large scale integration"/>
+                <RadioButton
+                    android:id="@+id/q18b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Ultra large silicon integration"/>
+                <RadioButton
+                    android:id="@+id/q18c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Upper large scale integration"/>
+                <RadioButton
+                    android:id="@+id/q18d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of these."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q19"
+                android:text="@string/up2015q19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q19a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) β = (α+1)/α"/>
+                <RadioButton
+                    android:id="@+id/q19b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) β = (α-1)/α"/>
+                <RadioButton
+                    android:id="@+id/q19c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) β = α/(1-α)"/>
+                <RadioButton
+                    android:id="@+id/q19d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) β = α/(α+1)"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q20"
+                android:text="@string/up2015q20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q20a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 50 km "/>
+                <RadioButton
+                    android:id="@+id/q20b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 56 km"/>
+                <RadioButton
+                    android:id="@+id/q20c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 70 km "/>
+                <RadioButton
+                    android:id="@+id/q20d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 80 km"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q21"
+                android:text="@string/up2015q21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q21a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 40 km"/>
+                <RadioButton
+                    android:id="@+id/q21b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 20 km"/>
+                <RadioButton
+                    android:id="@+id/q21c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 30"/>
+                <RadioButton
+                    android:id="@+id/q21d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Cannot be said."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q22"
+                android:text="@string/up2015q22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q22a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Either a) or b) along is sufficient"/>
+                <RadioButton
+                    android:id="@+id/q22b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Only b) sufficient"/>
+                <RadioButton
+                    android:id="@+id/q22c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) a) and b) together are needed"/>
+                <RadioButton
+                    android:id="@+id/q22d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Only a) along is sufficient"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q23"
+                android:text="@string/up2015q23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q23a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 75"/>
+                <RadioButton
+                    android:id="@+id/q23b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 1000"/>
+                <RadioButton
+                    android:id="@+id/q23c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 200"/>
+                <RadioButton
+                    android:id="@+id/q23d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 150"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q24"
+                android:text="@string/up2015q24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q24a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Killowatt * Hour"/>
+                <RadioButton
+                    android:id="@+id/q24b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Killowatt"/>
+                <RadioButton
+                    android:id="@+id/q24c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Joule"/>
+                <RadioButton
+                    android:id="@+id/q24d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Erg."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q25"
+                android:text="@string/up2015q25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q25a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) t = (V1-V2)/a "/>
+                <RadioButton
+                    android:id="@+id/q25b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) t = (V1^2) - (V2^2)"/>
+                <RadioButton
+                    android:id="@+id/q25c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) None"/>
+                <RadioButton
+                    android:id="@+id/q25d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Both a) and b)"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q26"
+                android:text="@string/up2015q26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q26a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Decrease"/>
+                <RadioButton
+                    android:id="@+id/q26b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Increase"/>
+                <RadioButton
+                    android:id="@+id/q26c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Remain the same"/>
+                <RadioButton
+                    android:id="@+id/q26d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Increase and then decrease"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q27"
+                android:text="@string/up2015q27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q27a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Lime and soda"/>
+                <RadioButton
+                    android:id="@+id/q27b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Ferrous sulphate"/>
+                <RadioButton
+                    android:id="@+id/q27c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Chlorinated coppers"/>
+                <RadioButton
+                    android:id="@+id/q27d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Alum."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q28"
+                android:text="@string/up2015q28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q28a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) straighten the fibre."/>
+                <RadioButton
+                    android:id="@+id/q28b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) improve evenness of silver"/>
+                <RadioButton
+                    android:id="@+id/q28c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) alling fiber along the axis of the silver "/>
+                <RadioButton
+                    android:id="@+id/q28d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) all of the above."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q29"
+                android:text="@string/up2015q29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q29a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Dynamic Lift of aeroplane"/>
+                <RadioButton
+                    android:id="@+id/q29b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Hydraulic press"/>
+                <RadioButton
+                    android:id="@+id/q29c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Helicopter"/>
+                <RadioButton
+                    android:id="@+id/q29d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of these."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q30"
+                android:text="@string/up2015q30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q30a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) One Coulomb"/>
+                <RadioButton
+                    android:id="@+id/q30b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) One Joule"/>
+                <RadioButton
+                    android:id="@+id/q30c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) One Joule/Coulomb"/>
+                <RadioButton
+                    android:id="@+id/q30d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) One Coulomb/Joule."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q31"
+                android:text="@string/up2015q31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q31a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Zero"/>
+                <RadioButton
+                    android:id="@+id/q31b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Minimum"/>
+                <RadioButton
+                    android:id="@+id/q31c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Maximum"/>
+                <RadioButton
+                    android:id="@+id/q31d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of the above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q32"
+                android:text="@string/up2015q32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q32a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) very high input impedance"/>
+                <RadioButton
+                    android:id="@+id/q32b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) very low input impedance"/>
+                <RadioButton
+                    android:id="@+id/q32c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) high connection emitter junction "/>
+                <RadioButton
+                    android:id="@+id/q32d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) all above  options"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q33"
+                android:text="@string/up2015q33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q33a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Heavily "/>
+                <RadioButton
+                    android:id="@+id/q33b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Lightly"/>
+                <RadioButton
+                    android:id="@+id/q33c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Moderately"/>
+                <RadioButton
+                    android:id="@+id/q33d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of the above."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q34"
+                android:text="@string/up2015q34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q34a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a)  Thomson effect"/>
+                <RadioButton
+                    android:id="@+id/q34b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Seeback effect"/>
+                <RadioButton
+                    android:id="@+id/q34c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Peltier effect"/>
+                <RadioButton
+                    android:id="@+id/q34d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Joule effect"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q35"
+                android:text="@string/up2015q35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q35a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) deviation from true value"/>
+                <RadioButton
+                    android:id="@+id/q35b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) closeness to true value"/>
+                <RadioButton
+                    android:id="@+id/q35c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) measure of responsibility"/>
+                <RadioButton
+                    android:id="@+id/q35d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of the above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q36"
+                android:text="@string/up2015q36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q36a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) viscosity"/>
+                <RadioButton
+                    android:id="@+id/q36b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) bulk modulus"/>
+                <RadioButton
+                    android:id="@+id/q36c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) stress"/>
+                <RadioButton
+                    android:id="@+id/q36d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) strain"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q37"
+                android:text="@string/up2015q37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q37a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) single shear"/>
+                <RadioButton
+                    android:id="@+id/q37b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) double shear"/>
+                <RadioButton
+                    android:id="@+id/q37c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) triple shear"/>
+                <RadioButton
+                    android:id="@+id/q37d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) strain"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q38"
+                android:text="@string/up2015q38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q38a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 6 to 10"/>
+                <RadioButton
+                    android:id="@+id/q38b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 10 to 15"/>
+                <RadioButton
+                    android:id="@+id/q38c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 15 to 25"/>
+                <RadioButton
+                    android:id="@+id/q38d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 25 to 35."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q39"
+                android:text="@string/up2015q39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q39a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Otto cycle"/>
+                <RadioButton
+                    android:id="@+id/q39b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Carnot cycle"/>
+                <RadioButton
+                    android:id="@+id/q39c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Diesel cycle."/>
+                <RadioButton
+                    android:id="@+id/q39d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Rankine cycle"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q40"
+                android:text="@string/up2015q40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q40a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Horizontal"/>
+                <RadioButton
+                    android:id="@+id/q40b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Vertical"/>
+                <RadioButton
+                    android:id="@+id/q40c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Rotational "/>
+                <RadioButton
+                    android:id="@+id/q40d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of these. "/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q41"
+                android:text="@string/up2015q41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q41a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) End less blade"/>
+                <RadioButton
+                    android:id="@+id/q41b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Down cut shaper"/>
+                <RadioButton
+                    android:id="@+id/q41c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Straight blade"/>
+                <RadioButton
+                    android:id="@+id/q41d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of these"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q42"
+                android:text="@string/up2015q42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q42a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Lime stone"/>
+                <RadioButton
+                    android:id="@+id/q42b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Ion-exchange resings"/>
+                <RadioButton
+                    android:id="@+id/q42c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Calgon"/>
+                <RadioButton
+                    android:id="@+id/q42d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Rock salt."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q43"
+                android:text="@string/up2015q43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q43a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Na^(+)"/>
+                <RadioButton
+                    android:id="@+id/q43b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Al^(3+)"/>
+                <RadioButton
+                    android:id="@+id/q43c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 0^(-2)"/>
+                <RadioButton
+                    android:id="@+id/q43d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) N^(+)"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q44"
+                android:text="@string/up2015q44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q44a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Distilled Water"/>
+                <RadioButton
+                    android:id="@+id/q44b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 1 MNH(base 3)"/>
+                <RadioButton
+                    android:id="@+id/q44c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 1 MNOH"/>
+                <RadioButton
+                    android:id="@+id/q44d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) water saturated with chlorine."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q45"
+                android:text="@string/up2015q45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q45a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Omnivores"/>
+                <RadioButton
+                    android:id="@+id/q45b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Herviborius"/>
+                <RadioButton
+                    android:id="@+id/q45c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Carnivorius"/>
+                <RadioButton
+                    android:id="@+id/q45d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of the above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q46"
+                android:text="@string/up2015q46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q46a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) lack of water"/>
+                <RadioButton
+                    android:id="@+id/q46b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) lack of carbon"/>
+                <RadioButton
+                    android:id="@+id/q46c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) lack of nitrogen"/>
+                <RadioButton
+                    android:id="@+id/q46d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of these"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q47"
+                android:text="@string/up2015q47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q47a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Software required to access hardware in networking PC"/>
+                <RadioButton
+                    android:id="@+id/q47b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Hardware required to access software in networking"/>
+                <RadioButton
+                    android:id="@+id/q47c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) sending data from Remote Place"/>
+                <RadioButton
+                    android:id="@+id/q47d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) All of the above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q48"
+                android:text="@string/up2015q48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q48a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Machine language"/>
+                <RadioButton
+                    android:id="@+id/q48b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) PASCAL"/>
+                <RadioButton
+                    android:id="@+id/q48c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) COBOL"/>
+                <RadioButton
+                    android:id="@+id/q48d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) all of the above."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q49"
+                android:text="@string/up2015q49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q49a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) SDRAM"/>
+                <RadioButton
+                    android:id="@+id/q49b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) EEPROM"/>
+                <RadioButton
+                    android:id="@+id/q49c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) DRAM"/>
+                <RadioButton
+                    android:id="@+id/q49d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Cache"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q50"
+                android:text="@string/up2015q50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q50a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Light Pen"/>
+                <RadioButton
+                    android:id="@+id/q50b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Scanner"/>
+                <RadioButton
+                    android:id="@+id/q50c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Mouse "/>
+                <RadioButton
+                    android:id="@+id/q50d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) LCD"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q51"
+                android:text="@string/up2015q51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q51a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) OS/2"/>
+                <RadioButton
+                    android:id="@+id/q51b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Windows NT"/>
+                <RadioButton
+                    android:id="@+id/q51c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) UNIX"/>
+                <RadioButton
+                    android:id="@+id/q51d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Windows 98"/>
+
+            </RadioGroup>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q52"
+                android:text="@string/up2015q52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q52a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) if"/>
+                <RadioButton
+                    android:id="@+id/q52b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) if-else"/>
+                <RadioButton
+                    android:id="@+id/q52c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) switch case"/>
+                <RadioButton
+                    android:id="@+id/q52d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) all of above"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q53"
+                android:text="@string/up2015q53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q53a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) structure "/>
+                <RadioButton
+                    android:id="@+id/q53b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) struct"/>
+                <RadioButton
+                    android:id="@+id/q53c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) union"/>
+                <RadioButton
+                    android:id="@+id/q53d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) all of above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q54"
+                android:text="@string/up2015q54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q54a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) brakes"/>
+                <RadioButton
+                    android:id="@+id/q54b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) clutches"/>
+                <RadioButton
+                    android:id="@+id/q54c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) screw jack"/>
+                <RadioButton
+                    android:id="@+id/q54d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of these"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q55"
+                android:text="@string/up2015q55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q55a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) medians"/>
+                <RadioButton
+                    android:id="@+id/q55b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) bisectors of angles"/>
+                <RadioButton
+                    android:id="@+id/q55c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) altitudes"/>
+                <RadioButton
+                    android:id="@+id/q55d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of these."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q56"
+                android:text="@string/up2015q56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q56a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Society Worldwide Interbank Financial Telecommunication"/>
+                <RadioButton
+                    android:id="@+id/q56b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Social Welfare India Financial Telecommunication"/>
+                <RadioButton
+                    android:id="@+id/q56c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Secrate Welfare India Financial Telecommunications."/>
+                <RadioButton
+                    android:id="@+id/q56d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Not possible."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q57"
+                android:text="@string/up2015q57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q57a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Connect all the capacitors in series"/>
+                <RadioButton
+                    android:id="@+id/q57b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Connect are the capacitors in parallel"/>
+                <RadioButton
+                    android:id="@+id/q57c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Connected two capacitors in parallel and one in series"/>
+                <RadioButton
+                    android:id="@+id/q57d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Not possible."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q58"
+                android:text="@string/up2015q58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q58a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Green vegetable "/>
+                <RadioButton
+                    android:id="@+id/q58b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Milk"/>
+                <RadioButton
+                    android:id="@+id/q58c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Fish"/>
+                <RadioButton
+                    android:id="@+id/q58d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) All of these"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q59"
+                android:text="@string/up2015q59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q59a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) (2/2π)* √(h/m)"/>
+                <RadioButton
+                    android:id="@+id/q59b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 2*√(h/m)"/>
+                <RadioButton
+                    android:id="@+id/q59c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) (1/2π)*(√(m/k))"/>
+                <RadioButton
+                    android:id="@+id/q59d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) 2*√(m/k)"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q60"
+                android:text="@string/up2015q60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q60a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text = "a) Centigrade scale"/>
+                <RadioButton
+                    android:id="@+id/q60b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Fahrenheight scale"/>
+                <RadioButton
+                    android:id="@+id/q60c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Reumer scale"/>
+                <RadioButton
+                    android:id="@+id/q60d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Kelvin scale"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q61"
+                android:text="@string/up2015q61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q61a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a)Spontaneous emission"/>
+                <RadioButton
+                    android:id="@+id/q61b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b)Stimulated emission"/>
+                <RadioButton
+                    android:id="@+id/q61c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Interference"/>
+                <RadioButton
+                    android:id="@+id/q61d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Polarization"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q62"
+                android:text="@string/up2015q62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q62a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Nature of the liquid"/>
+                <RadioButton
+                    android:id="@+id/q62b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Temperature"/>
+                <RadioButton
+                    android:id="@+id/q62c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Presence of impurities "/>
+                <RadioButton
+                    android:id="@+id/q62d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Atmospheric pressure."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q63"
+                android:text="@string/up2015q63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q63a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Ethylene di bromide(EDB)"/>
+                <RadioButton
+                    android:id="@+id/q63b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Melathian"/>
+                <RadioButton
+                    android:id="@+id/q63c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Perethian"/>
+                <RadioButton
+                    android:id="@+id/q63d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) DDT"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q64"
+                android:text="@string/up2015q64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q64a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Starch"/>
+                <RadioButton
+                    android:id="@+id/q64b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Synthetic rubber"/>
+                <RadioButton
+                    android:id="@+id/q64c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Natural rubber"/>
+                <RadioButton
+                    android:id="@+id/q64d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) PVC"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q65"
+                android:text="@string/up2015q65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q65a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Compression"/>
+                <RadioButton
+                    android:id="@+id/q65b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Expansion"/>
+                <RadioButton
+                    android:id="@+id/q65c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Suction Exhaust"/>
+                <RadioButton
+                    android:id="@+id/q65d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Exhaust"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q66"
+                android:text="@string/up2015q66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q66a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) H.P."/>
+                <RadioButton
+                    android:id="@+id/q66b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) V.P."/>
+                <RadioButton
+                    android:id="@+id/q66c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) P.P."/>
+                <RadioButton
+                    android:id="@+id/q66d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) any of above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q67"
+                android:text="@string/up2015q67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q67a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Voltage"/>
+                <RadioButton
+                    android:id="@+id/q67b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Current"/>
+                <RadioButton
+                    android:id="@+id/q67c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Frequency"/>
+                <RadioButton
+                    android:id="@+id/q67d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) All of above"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q68"
+                android:text="@string/up2015q68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q68a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Neutron"/>
+                <RadioButton
+                    android:id="@+id/q68b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Electron "/>
+                <RadioButton
+                    android:id="@+id/q68c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Proton"/>
+                <RadioButton
+                    android:id="@+id/q68d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) All have identical mass."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q69"
+                android:text="@string/up2015q69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q69a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) 15"/>
+                <RadioButton
+                    android:id="@+id/q69b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) 12"/>
+                <RadioButton
+                    android:id="@+id/q69c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) 14"/>
+                <RadioButton
+                    android:id="@+id/q69d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) none of above "/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q70"
+                android:text="@string/up2015q70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q70a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) NAND"/>
+                <RadioButton
+                    android:id="@+id/q70b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) NOR"/>
+                <RadioButton
+                    android:id="@+id/q70c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) AND"/>
+                <RadioButton
+                    android:id="@+id/q70d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) NOT."/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q71"
+                android:text="@string/up2015q71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q71a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Proteins"/>
+                <RadioButton
+                    android:id="@+id/q71b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Minerals"/>
+                <RadioButton
+                    android:id="@+id/q71c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Fatty acids"/>
+                <RadioButton
+                    android:id="@+id/q71d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Oil"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q72"
+                android:text="@string/up2015q72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q72a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Glass"/>
+                <RadioButton
+                    android:id="@+id/q72b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Mica"/>
+                <RadioButton
+                    android:id="@+id/q72c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Quartz"/>
+                <RadioButton
+                    android:id="@+id/q72d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Procelain"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q73"
+                android:text="@string/up2015q73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q73a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) energy can neither be created nor destroyed"/>
+                <RadioButton
+                    android:id="@+id/q73b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) whenever energy is transformed, it is conserved"/>
+                <RadioButton
+                    android:id="@+id/q73c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) either a) or b)"/>
+                <RadioButton
+                    android:id="@+id/q73d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) it cannot be applied to closed to"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q74"
+                android:text="@string/up2015q74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q74a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Longitudinal stress"/>
+                <RadioButton
+                    android:id="@+id/q74b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Circumferential "/>
+                <RadioButton
+                    android:id="@+id/q74c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Shear stress"/>
+                <RadioButton
+                    android:id="@+id/q74d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) Tangential stress"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/q75"
+                android:text="@string/up2015q75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+                android:id="@+id/rg75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/q75a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) One valve"/>
+                <RadioButton
+                    android:id="@+id/q75b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b) Two valve"/>
+                <RadioButton
+                    android:id="@+id/q75c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c) Three valve"/>
+                <RadioButton
+                    android:id="@+id/q75d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d) None of above."/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizSet2">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/q1"
+        android:text="@string/set2q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) change its motion"/>
+        <RadioButton
+            android:id="@+id/q1b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) balance the forces, already acting on it"/>
+        <RadioButton
+            android:id="@+id/q1c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) give rise to the internal stresses in it"/>
+        <RadioButton
+            android:id="@+id/q1d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q2"
+        android:text="@string/set2q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) magnitude of the force"/>
+        <RadioButton
+            android:id="@+id/q2b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) line of action of force "/>
+        <RadioButton
+            android:id="@+id/q2c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) nature of the force i.e. whether the force is push or pull"/>
+        <RadioButton
+            android:id="@+id/q2d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q3"
+        android:text="@string/set2q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) principle of independence of forces"/>
+        <RadioButton
+            android:id="@+id/q3b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) principle of resolution of forces"/>
+        <RadioButton
+            android:id="@+id/q3c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) principle of transmissibility of forces"/>
+        <RadioButton
+            android:id="@+id/q3d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q4"
+        android:text="@string/set2q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q4a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) P+Q"/>
+        <RadioButton
+            android:id="@+id/q4b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) P-Q"/>
+        <RadioButton
+            android:id="@+id/q4c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) P/Q"/>
+        <RadioButton
+            android:id="@+id/q4d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) Q/P"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q5"
+        android:text="@string/set2q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q5a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) 0° and 180°"/>
+        <RadioButton
+            android:id="@+id/q5b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) 180° and 0°"/>
+        <RadioButton
+            android:id="@+id/q5c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) 90° and 180°"/>
+        <RadioButton
+            android:id="@+id/q5d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) 90° and 0°"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q6"
+        android:text="@string/set2q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q6a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) 30º"/>
+        <RadioButton
+            android:id="@+id/q6b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) 60º"/>
+        <RadioButton
+            android:id="@+id/q6c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) 90º"/>
+        <RadioButton
+            android:id="@+id/q6d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) 120º"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q7"
+        android:text="@string/set2q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q7a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) P=Q"/>
+        <RadioButton
+            android:id="@+id/q7b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) Q=R"/>
+        <RadioButton
+            android:id="@+id/q7c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) Q=2R"/>
+        <RadioButton
+            android:id="@+id/q7d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q8"
+        android:text="@string/set2q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q8a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) 20N"/>
+        <RadioButton
+            android:id="@+id/q8b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) 40N"/>
+        <RadioButton
+            android:id="@+id/q8c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) 80N"/>
+        <RadioButton
+            android:id="@+id/q8d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q9"
+        android:text="@string/set2q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q9a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) all the forces are equally inclined"/>
+        <RadioButton
+            android:id="@+id/q9b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) Resultant of all the forces is zero"/>
+        <RadioButton
+            android:id="@+id/q9c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) sum of resolved parts in the vertical direction is zero (i.e. sumOf(V) = 0)"/>
+        <RadioButton
+            android:id="@+id/q9d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) sum of resolved parts in the horizontal direction is zero (i.e. sumOf(H)= 0) "/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q10"
+        android:text="@string/set2q10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q10a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) lie on the same line"/>
+        <RadioButton
+            android:id="@+id/q10b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) meet at one point"/>
+        <RadioButton
+            android:id="@+id/q10c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) meet on the same place"/>
+        <RadioButton
+            android:id="@+id/q10d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q11"
+        android:text="@string/set2q11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q11a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) coplanar concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q11b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) coplanar non-concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q11c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) non-coplanar concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q11d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) non-coplanar non-concurrent forces"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q12"
+        android:text="@string/set2q12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q12a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) coplanar concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q12b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) coplanar non-concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q12c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) non-coplanar concurrent forces"/>
+        <RadioButton
+            android:id="@+id/q12d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of these"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q13"
+        android:text="@string/set2q13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q13a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) meet at one point, but their lines of action do not lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q13b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) do not meet at one point and their lines of action do not lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q13c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) meet at one point and their lines of action also lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q13d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) do not meet at one point, but their lines of action lie on the same plane"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q14"
+        android:text="@string/set2q14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q14a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) meet at one point, but their lines of action do not lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q14b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) do not meet at one point and their lines of action do not lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q14c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) meet at one point and their lines of action also lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q14d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) do not meet at one point, but their lines of action lie on the same plane"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q15"
+        android:text="@string/set2q15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q15a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) meet at one point, but their lines of action do not lie on the same plane "/>
+        <RadioButton
+            android:id="@+id/q15b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) do not meet at one point and their lines of action do not lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q15c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) do not meet at one point but their lines of action lie on the same plane"/>
+        <RadioButton
+            android:id="@+id/q15d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) none of the above"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q16"
+        android:text="@string/set2q16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q16a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) the tree forces must be equal"/>
+        <RadioButton
+            android:id="@+id/q16b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) the three forces must be at 120º to each other"/>
+        <RadioButton
+            android:id="@+id/q16c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) the three forces must be in equilibrium"/>
+        <RadioButton
+            android:id="@+id/q16d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) if the three forces acting at a point are in equilibrium, then each force is proportional to the sine of the angle between the other two"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/q17"
+        android:text="@string/set2q17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/rg17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/q17a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) is the turning effect produced by a force, on the body, on which it acts"/>
+        <RadioButton
+            android:id="@+id/q17b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b) is equal to the product of force acting on the body and the perpendicular distance of a point and the line of action of the force"/>
+        <RadioButton
+            android:id="@+id/q17c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) is equal to twice the area of the triangle, whose base is the line representing the force and whose vertex is the point, about which the moment is taken"/>
+        <RadioButton
+            android:id="@+id/q17d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) all of the above"/>
+    </RadioGroup>
+</ScrollView>
+</LinearLayout>
